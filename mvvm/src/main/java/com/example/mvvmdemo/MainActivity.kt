@@ -92,44 +92,6 @@ class MainActivity : AppCompatActivity(), CheckInterface {
             }
         }
 
-//        mainViewModel.liveDataMerger.observe(this,{
-//            Log.e("checkObserver", "liveDataMerger :   $it")
-//
-//        })
-//        mainViewModel.liveData2.observe(this,{
-//            Log.e("checkObserver", "liveData2 :   $it")
-//
-//        })
-//        mainViewModel.liveDataMergerArray.observe(this,{
-//            Log.e("checkObserver", "liveDataMergerArray :   ${Gson().toJson(it)}")
-//
-//        })
-//        mainViewModel.liveDataSwitch.observe(this,{
-//            Log.e("checkObserver", "liveDataSwitch :   ${Gson().toJson(it)}")
-//
-//        })
-//        mainViewModel.liveDataSwitchdistinct.observe(this,{
-//            Log.e("checkObserver", "liveDataSwitchdistinct :   ${Gson().toJson(it)}")
-//
-//        })
-//        mainViewModel.liveDataSwitch1.observe(this,{
-//            Log.e("checkObserver", "liveDataSwitch1 :   ${Gson().toJson(it)}")
-//
-//        })
-//
-//        lifecycleScope.launch {
-//            // Trigger the flow and consume its elements using collect
-//            mainViewModel.dataFlow .catch { exception ->
-//                Log.e("dataFlow", "exception : "+exception)
-//            }.collect {
-//
-//                // Update View with the latest favorite news
-//                var list=it as List<Post>
-//                Log.e("dataFlow", " : "+list.size)
-//
-//            }
-//        }
-
     }
 
     private fun initRecyclerview() {
